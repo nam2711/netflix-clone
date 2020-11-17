@@ -19,7 +19,9 @@ export const Inner = styled.div`
 export const Item = styled.div`
   color: white;
   margin-bottom: 10px;
-  max-width: 670px;
+  margin: auto;
+  max-width: 700px;
+  width: 100%;
 
   &:first-of-type {
     margin-top: 3em;
@@ -34,7 +36,7 @@ export const Header = styled.div`
   font-size: 26px;
   font-weight: normal;
   background: #303030;
-  padding: 0.8em 1.2em;
+  padding: 0.8em 1.2em 0.8em 1.2em;
   user-select: none;
   align-items: center;
 
@@ -59,7 +61,7 @@ export const Body = styled.div`
   font-weight: normal;
   line-height: normal;
   background: #303030;
-  padding: 0.8em 2.2em;
+  padding: 0.8em 2.2em 0.8em 1.2em;
   white-space: pre-wrap;
   user-select: none;
 
